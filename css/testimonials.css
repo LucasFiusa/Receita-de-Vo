@@ -1,0 +1,71 @@
+#testimonials{
+    max-width: 100%;
+    display: flex;
+    margin: 40px 0px 40px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#testimonials aside{
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+}
+
+#testimonials aside img{
+    width: 70%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 50px;
+    }
+}
+
+#testimonials article{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+#feedbacks{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 4%;
+    border-radius: 22px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+#feedbacks .feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#feedbacks .feedback .feedback-nick .feedback-nick-avaliation{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    aside{
+        display: none;
+    }
+    #testimonials{
+        justify-content: center;
+    }
+    #testimonials article{
+        width: 80%;
+    }
+    .feedback-description{
+        text-align: justify;
+    }
+}

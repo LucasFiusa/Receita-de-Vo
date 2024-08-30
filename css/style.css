@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #a1a1a1;
+}
+
+
+body{
+    background-color: #ffffce;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+span{
+    color: #ffb763;
+}
+
+
+.interface{
+    padding: 15px 4%;
+}
+
+
+.btn-default{
+    padding: 10px 14px;
+    border: none;
+    background-color: #ffb763;
+    color: #ffffce;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color ease .2s;
+    transition: scale ease .2s;
+}
+
+
+.btn-default:hover{
+    background-color: #ffc078;
+    scale: 1.05;
+}
+
+
+.social-midia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+
+.social-midia-btn{
+    background-color: #ffb763;
+    padding: 14px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color ease .2s;
+    transition: scale ease .2s;
+}
+
+
+.social-midia-btn:hover{
+    background-color: #ffc078;
+    scale: 1.05;
+}
+
+
+.social-midia-btn i{
+    color: #ffffce;
+    font-size: 1.1rem;
+}
+
+
+.section-title{
+    color: #ffb763;
+    font-size: 1.9rem;
+}
+
+
+.section-subtitle{
+    font-size: 1.3rem;
+}
+

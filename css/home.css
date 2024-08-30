@@ -1,0 +1,82 @@
+#home{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 100px);
+}
+
+
+#cta{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    gap: 40px;
+    text-align: justify;
+}
+
+
+#cta_title{
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+
+#cta_description{
+    font-size: 1.1rem;
+}
+
+
+#btn_contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#btn_telphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btn_telphone a{
+    background-color: #fff;
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 7px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    transition: background-color ease .2s;
+    transition: scale ease .2s;
+}
+
+
+#btn_telphone a:hover{
+    background-color: #f7ecec;
+    scale: 1.05;
+}
+
+@media screen and (max-width: 1200px) {
+    #home{
+        justify-content: center;
+    }
+    #home img{
+        display: none;
+    }
+    #cta{
+        width: 80%;
+    }
+    #cta_title,
+    #cta_description{
+        text-align: center;
+    }
+    #btn_contact{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}

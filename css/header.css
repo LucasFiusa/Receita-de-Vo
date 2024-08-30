@@ -1,0 +1,35 @@
+#navbar{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#navbar_list{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+
+#navbar ul li{
+    transition: scale ease .3s;
+}
+
+
+#navbar ul li:hover{
+    scale: 1.1;
+}
+
+@media screen and (max-width: 1000px) {
+    #navbar{
+        justify-content: center;
+    }
+    #navbar_list{
+        display: none;
+    }
+    #navbar .btn-default{
+        display: none;
+    }
+}
